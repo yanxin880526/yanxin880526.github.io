@@ -41,7 +41,7 @@ function startWorkers() {
         }
     }
 }
-\
+
 function processWork(worker, workerResults) {
     drawRow(workerResults);
     reassignWorker(worker);
