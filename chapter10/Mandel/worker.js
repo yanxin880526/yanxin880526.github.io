@@ -1,6 +1,6 @@
 importScripts("workerlib.js");
 
-onmessage = funcion(task) {
+onmessage = function(task) {
     var workerResult = computeRow(task.data);
     
     postMessage(workerResult);
